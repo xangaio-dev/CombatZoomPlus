@@ -1,2 +1,2 @@
-# Repo_CombatZoomPlus
+# CombatZoomPlus
 CombatZoomPlus Addon
