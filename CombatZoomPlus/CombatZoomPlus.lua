@@ -3,9 +3,9 @@ local f = CreateFrame("Frame")
 -- Valores "Default" (entre 1–34) -- 10 = 1x
 local defaults = {
     idle = 11,       -- 1.1x
-    mounted = 26,    -- 2.6x
-    combat = 32,     -- 3.2x
-    instance = 22    -- 2.2x
+    mounted = 20,    -- 2.0x
+    combat = 26,     -- 2.6x
+    instance = 18    -- 1.8x
 }
 
 CombatZoomPlusDB = CombatZoomPlusDB or {}
