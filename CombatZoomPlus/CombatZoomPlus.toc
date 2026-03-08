@@ -1,0 +1,10 @@
+## Interface: 120000
+## Title: CombatZoomPlus
+## Notes: Automatically adjusts camera zoom based on player state (combat, mounted, instance, idle)
+## Author: Xangaio
+## Version: 12.0.1
+## IconTexture: Interface\Icons\INV_Misc_Spyglass_03
+## SavedVariables: CombatZoomPlusDB
+## Category: Camera
+
+CombatZoomPlus.lua
