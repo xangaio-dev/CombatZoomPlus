@@ -52,10 +52,18 @@ CombatZoomPlus changes the camera zoom when you are in combat, mounted, in an in
 ## Release Notes
 
 **v12.0.1**  
-- ✅ Compatible with **Midnight Expansion**  
 - Added in-game configurable zoom via slash commands  
 - Added `/czp show` and `/czp reset`  
 - Improved event handling for smoother zoom changes  
 - Polished UI messages and slash command feedback  
+
+**v12.0.0**  
+- ✅ Compatible with **Midnight Expansion**
+- Auto zoom out when in **combat**  
+- Auto zoom when **mounted**  
+- Auto zoom for **instances** (dungeons, raids, PvP, scenarios)  
+- Smooth resetting when returning to idle  
+- Fully configurable in-game via slash commands  
+- Saved settings per character  
 
 ---
