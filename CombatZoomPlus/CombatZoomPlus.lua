@@ -3,9 +3,9 @@ local f = CreateFrame("Frame")
 -- Valores "Default" (entre 1–34) -- 10 = 1x
 local defaults = {
     idle = 11,       -- 1.1x
-    mounted = 20,    -- 2.0x
+    mounted = 22,    -- 2.2x
     combat = 26,     -- 2.6x
-    instance = 18    -- 1.8x
+    instance = 20    -- 2.0x
 }
 
 CombatZoomPlusDB = CombatZoomPlusDB or {}
@@ -112,6 +112,7 @@ SlashCmdList["COMBAT_ZOOM_PLUS"] = function(msg)
 
     if msg == "" then
   	print("|cff00ff00CombatZoomPlus:|r Use |cffffff00/czp help|r to show available slash commands")
+    PrintCurrentSettings()
         return
     end
 
